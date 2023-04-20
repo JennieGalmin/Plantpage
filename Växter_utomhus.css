@@ -1,0 +1,101 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.main {
+    display:grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(197, 240, 197);
+    gap:5rem;
+    padding:4rem;
+}
+
+table {
+    float: right;
+    padding: 2rem;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:1rem;
+}
+
+th {
+    text-align: left;
+}
+
+.luktpionclass {
+    grid-column-start: 1;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.luktpion-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lp-text {
+    margin-top: 1rem;;
+    font-weight: bold;
+    text-align:center;
+}
+
+.syrenbuskeclass {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.syren-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sb-text {
+    margin-top: 1rem;;
+    font-weight: bold;
+    text-align:center;
+}
+
+.lavendelclass {
+    
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.lavendel-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lv-text {
+    margin-top: 1rem;;
+    font-weight: bold;
+    text-align:center;
+}
+
+.dahliaclass {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.dahlia-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d-text {
+    margin-top: 1rem;;
+    font-weight: bold;
+    text-align:center;
+}
