@@ -5,38 +5,99 @@
 
 .container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33,33% 33,33% 33,33% ;
     background-color: rgb(197, 240, 197);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 .navbar {
+    
     grid-column: 1 / span 3;
-    justify-content: start;
+    background-color: black;
+    color:aliceblue;
+    display:flex;
     align-items: center;
-    
-    padding: 3%;
+    justify-content: space-evenly;
     
     
 }
+
+.navlogo {
+    margin-right: 15%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 30px;  
+    color: rgb(35, 120, 35);
+}
+
+
+.nav1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav1 a {
+    
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 30px;
+} 
+
+
 .searchbar {
-    margin-left: 80%;
-
+    display: flex;
+    box-sizing: border-box;
+    gap:5px;
 }
 
-.sidebar {
-    padding: 4%;
-    margin-top:25%;
+.searchbar input[type="search"] {
     
+    margin-left: 60%;
+    padding: 6px;
+    border: none;
+    margin-top: 6px;
+    font-size: 15px;
+    width: 150px;
+
 }
-.side2 {
-    margin-top: 20%;
+
+.searchbar input[type="submit"] {
+
+    padding: 6px;
+    border:none;
+    font-size: 15px;
+    margin-top: 6px;
 }
+
 .main {
     display:flex;
     box-sizing: border-box;
     gap: 5rem;
     justify-content: center;
+    align-items: center;
+    padding: 4rem;
     
+}
+.picture1 {
+    margin-left: 40%;
+}
+img {
+    padding: 2rem;
+    
+}
+.monstreatext {
+    margin:8rem;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+}
+.laveneltext{
+    margin: 8rem;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .footer {
@@ -47,8 +108,11 @@
 
 .logo {
     margin-left:25%;
+    font-size: 20px;
+    
 }
 .icons {
     margin-left: 90%;
+    
    
 }
