@@ -8,6 +8,7 @@
     grid-template-columns: 33,33% 33,33% 33,33% ;
     background-color: rgb(197, 240, 197);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 .navbar {
     
@@ -29,19 +30,6 @@
     color: rgb(35, 120, 35);
 }
 
-
-.nav1 {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.nav1 a {
-    
-    text-decoration: none;
-    color:aliceblue;
-    font-size: 30px;
-} 
 
 
 .searchbar {
@@ -101,18 +89,23 @@ img {
 }
 
 .footer {
+    
     grid-column:1/4;
-    padding: 3%;
+    display: flex;
+    align-items:end
     
 }
 
 .logo {
-    margin-left:25%;
-    font-size: 20px;
+    
+    padding: 3%;
+    font-size: 20px;  
+    color: rgb(35, 120, 35);
+    
     
 }
 .icons {
-    margin-left: 90%;
-    
+    margin-left: 73%;
+    padding: 3%;
    
 }
